@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuCrud"
+        android:title="@string/menuCrud" >
+        <menu>
+            <item
+                android:id="@+id/menuAlta"
+                android:title="@string/menuAlta" />
+            <item
+                android:id="@+id/menuBaja"
+                android:title="@string/menuBaja" />
+
+            <item
+                android:id="@+id/menuModi"
+                android:title="@string/menuModi" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/menuSettings"
+        android:title="@string/menuSettings" />
+</menu>
